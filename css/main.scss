@@ -1,0 +1,170 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before, after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active {outline: none;}
+a:focus,:active {outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+   line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,text area {font-family: inherit;}
+
+input::-ms-clear {display: none;}
+button {cursor: pointer;}
+button::-moz-focus-inner {padding: 0;border: 0;}
+a, a:visited {text-decoration: none;}
+a:hover {text-decoration: none;}
+ul li {list-style: none;}
+img {vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6 {font-size: inherit;font-weight:400; }
+
+:root {
+	font-size: 1 em;
+}
+body {
+	font-family: Inter;
+	font-weight: 400;
+}
+.header {
+	background-color: #4A2B33;
+}
+.container {
+	max-width: 90%;
+	margin: 0 auto;
+}
+.inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+
+}
+.header__list {
+	display: flex;
+	justify-content: space-between;
+}
+.header__list-item {
+	font-size: 1.1rem;
+	line-height: 1.7rem;
+	color: #D27487;
+	cursor: pointer;
+}
+.header__list-item + .header__list-item {
+	margin-left: 1.5rem;
+}
+.header__logo {
+	margin-right: 12rem;
+}
+.header__social-img {
+	cursor: pointer;
+}
+.header__social-img +.header__social-img {
+	margin-left: 0.5rem;
+}
+.header__design-img {
+	max-width: 100%;
+}
+.hero__title {
+	font-family: Azeret Mono;
+	font-weight: 700;
+	font-size: 1.1rem;
+	color: #222;
+	cursor: pointer;
+	text-align: center;
+	padding-top: 17.5rem;
+}
+.hero__text {
+	font-family: Inter Italic;
+	font-size: 2.3rem;
+	line-height: 3rem;
+	color: #222;
+	text-align: center;
+	padding-bottom: 17.5rem;
+}
+.menu {
+	background-color: #E9E9E3;
+}
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+	
+}.menu__select {
+	font-family: Azeret Mono;
+	font-weight: 700;
+	font-size: 1.1rem;
+	color: #222;
+	cursor: pointer;
+	padding-top: 9rem;
+};
+.menu__text {
+	padding-top: 1rem;
+	padding-bottom: 2rem;
+	font-size: 2.3rem;
+	line-height: 3rem;
+	color: #222;
+}
+.menu__btn {
+	display: block;
+	font-size: 1.1rem;
+	line-height: 1.6rem;
+	color: rgba(111, 111, 100, 1);
+	width: 28rem;
+	height: 2.8rem;
+	border: 1px solid rgba(111, 111, 100, 1);
+}
+.menu__btn + .menu__btn {
+	margin-top: 0.5rem;
+}
+.menu__btn:hover {
+	background: #6F6F64;
+	color: #E9E9E3;
+	transition: 1ms;
+}
+.menu__prace {
+	width: 41.5rem;
+	padding-top: 8rem;
+	padding-bottom: 8rem;
+}
+.menu__price-img {
+	max-width: 100%;
+}
+.footer {
+	background: #AA9E54;
+}
+.footer__info {
+	text-align: center;
+}
+.footer__info-title {
+	font-family: Azeret Mono;
+	font-size: 1.1rem;
+	font-weight: 700;
+	line-height: 1.5rem;
+	color: #fff;
+	padding-top: 7.5rem;
+}
+.footer__info-text {
+	font-size: 1.5rem;
+	line-height: 2.3rem;
+	color: #fff;
+	text-align: center;
+}
+.footer__subtext {
+	padding-top: 3rem;
+	padding-bottom: 5rem;
+}
